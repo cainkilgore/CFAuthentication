@@ -56,6 +56,7 @@ public class PListener extends PlayerListener {
 		
 		if(CFAuthentication.cfg.getProperty("player." + p.getName() + ".loggedin").equals(false))
 		{
+			p.sendMessage("Please login! /login [password]");
 			e.setCancelled(true);
 		}
 		else {
