@@ -1,0 +1,20 @@
+name: CFAuthentication
+version: 1.03
+author: Cain
+main: me.cain.cfauthentication.CFAuthentication
+commands:
+   login:
+       description: Login
+       usage: 
+   register:
+       description: Register
+       usage: 
+   unregister:
+       description: Remove players from Registered List
+       usage: 
+   changepassword:
+       description: Change your password
+       usage: 
+   forceregister:
+       description: Force register an account
+       usage: 
